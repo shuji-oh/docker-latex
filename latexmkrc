@@ -1,3 +1,3 @@
-$latex = 'uplatex --shell-escape';
-$bibtex = 'upbibtex';
-$dvipdf='dvipdfmx %O %S';
+$latex = 'platex --kanji=utf8';
+$bibtex = 'pbibtex --kanji=utf8';
+$dvipdf = 'dvipdfmx';
