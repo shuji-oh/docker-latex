@@ -28,7 +28,7 @@ FILE_NAME=$(basename $1 .tex)
 docker run \
   --rm \
   -v $(pwd)/:/latex/ \
-  sititou70/latex:v2.0.0 latexmk -pdfdvi $WATCH_OPTION $FILE_NAME
+  sititou70/latex latexmk -pdfdvi $WATCH_OPTION $FILE_NAME
 
 # remove unnecessary files
 REMOVE_EXTS=(
