@@ -12,6 +12,7 @@ RUN apt update \
     texlive-fonts-extra \
     texlive-lang-cjk \
     texlive-lang-japanese \
+    texlive-science \
     latexmk \
     texinfo \
     xdvik-ja \
