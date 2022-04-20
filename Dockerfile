@@ -21,6 +21,8 @@ RUN apt update \
   && apt autoremove \
   && rm -rf /var/lib/apt/lists/*
 
+RUN kanji-config-updmap-sys ipaex
+
 VOLUME /latex
 WORKDIR /latex
 
